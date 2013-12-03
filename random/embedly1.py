@@ -17,5 +17,5 @@ far as I got
 import math
 
 def R(n):
-  	numbers = [int(i) for i in str((math.factorial(n)))]
-  	return sum(numbers)
+	numbers = [int(i) for i in str((math.factorial(n)))]
+	return sum(numbers)

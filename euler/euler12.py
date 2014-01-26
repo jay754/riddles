@@ -10,6 +10,7 @@ def factors(n):
     return set(reduce(list.__add__, ([i, n//i] for i in range(1, int(n**0.5) + 1) if n % i == 0)))
 
 def triangular_number(n):
+	#formula for adding up all the sums from 1 to N, AKA triangular numbers
 	return n*(n+1)/2
 
 def main():

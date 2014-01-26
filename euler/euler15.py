@@ -10,6 +10,8 @@ How many in a 20 by 20 grid?
 
 http://mathworld.wolfram.com/BinomialCoefficient.html -> gives a pretty good explanation of why its a Binomial Coefficient	
 
+I am not gonna lie there is no way in hell i would've got this question if I hadn't randomly googled pascal's triangle
+
 '''
 
 from math import factorial

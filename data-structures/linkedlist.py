@@ -44,6 +44,19 @@ class linkedlist:
 
 		return count
 
+	def get_position(self, value):
+		count = 1
+		found = False
+		current_node = self.head
+
+		while not found:
+			if current_node.value == value:
+				found = True
+				print count
+			else:
+				current_node = current_node.next
+				count += 1
+
 if __name__ == '__main__':
 
 	test = linkedlist()
@@ -52,5 +65,4 @@ if __name__ == '__main__':
 	test.add_node(16)
 	test.print_list()
 	print test.length()
-	test.delete_node(30)
-	test.print_list()
+	test.get_position(16)

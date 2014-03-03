@@ -3,7 +3,7 @@ Why I created this repo
 
 Computer Science can be hard and the best way to learn is to read and practice as much as you can and eventually it becomes a reflex. I had to learn this the hard way. <br>
 
-And reemember most of these algorithms are very similarly implemented using the same techniques (recursion, trees, graphs, etc) so once you start practicing you brain will pretty much pick up the rest
+And reemember most of these algorithms are very similarly implemented using the same techniques (recursion, trees, graphs, etc) so once you start practicing your brain will pretty much pick up the rest
 
 <h3> Check out the following resources It'll help alot </h3>
 

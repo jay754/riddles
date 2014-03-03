@@ -1,11 +1,6 @@
 Riddles
 =======
 
-Math Problems, Puzzles, Algorithms, Data Structures
-
-Why I created this Repo
-=======================
-
 Computer Science can be hard and the best way to learn is to read and practice as much as you can even eventually it becomes a reflex. I had to learn this the hard way. <br>
 
 And reemember most of these algorithms are very similarly implemented using the same techniques (recursion, trees, graphs, etc) so once you start practicing you brain will pretty much pick up the rest

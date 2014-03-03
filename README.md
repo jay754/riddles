@@ -10,7 +10,7 @@ And reemember most of these algorithms are very similarly implemented using the 
 <ul> 
 	<li> <a href="https://github.com/kennyledet/Algorithm-Implementations"> Github Repo for over hundreds of algorithms and data structures implemented </a> </li>
 	<li> <a href="http://www.reddit.com/r/dailyprogrammer"> Daily Algorithm Questions </a> </li>
-	<li> <a href="http://www.topcoder.com/"> Do like even the smallest amount of and you'll kill literally any exam that is given to you </a> </li>
+	<li> <a href="http://www.topcoder.com/"> Do like even the smallest amount of thse problems and you'll kill literally any algothim/data structure exam that is given to you </a> </li>
 	<li> <a href="http://projecteuler.net/"> My Favourite </a> </li>
 	<li> <a href="http://bigocheatsheet.com/"> Big O Cheatsheet </a> </li>
 </ul>

@@ -39,7 +39,7 @@ And reemember most of these algorithms are very similarly implemented using the 
 	<li> 56 </li>
 </ul>
 
-<h3> Algorithm Implemented </h3>
+<h3> Algorithms Implemented </h3>
 
 <ul> 
 	<li> Bubble Sort </li>
@@ -49,7 +49,7 @@ And reemember most of these algorithms are very similarly implemented using the 
 	<li> Sieve </li>
 </ul>
 
-<h3> Data Structues </h3>
+<h3> Data Structues Implemented </h3>
 
 <ul>
 	<li> Linkedlist </li>

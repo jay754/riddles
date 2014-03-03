@@ -42,3 +42,19 @@ Math Problems, Puzzles, Algorithms, Data Structures
 <ul>
 	<li> Linkedlist </li>
 </ul>
+
+More
+====
+
+Computer Science can be hard and the best way to learn, read and practice as much as you can even eventually it becomes a reflex. I had to learn this the hard way. <br>
+
+And Remember Most of these algorithms are very similarly implemented using the same techniques (recursion, trees, graphs, etc) so once you start practicing you brain will pretty much pick up the rest
+
+<h3> Check out the following resources It'll help alot </h3>
+
+<ul> 
+	<li> <a href="https://github.com/kennyledet/Algorithm-Implementations"> Github Repo for over hundreds of algorithms implemented and data structures implemented </a> </li>
+	<li> <a href="http://www.reddit.com/r/dailyprogrammer"> Daily Algorithm Questions </a> </li>
+	<li> <a href="http://www.topcoder.com/"> Do like even the smallest amount of and you'll kill literally any exam that is given to you </a> </li>
+	<li> <a href="http://projecteuler.net/"> My Favourite </a> </li>
+</ul>

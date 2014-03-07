@@ -47,6 +47,7 @@ And reemember most of these algorithms are very similarly implemented using the 
 	<li> Prime </li>
 	<li> Select Sort </li>
 	<li> Sieve </li>
+	<li> Binary Search </li>
 </ul>
 
 <h3> Data Structues Implemented </h3>

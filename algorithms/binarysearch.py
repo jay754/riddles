@@ -23,4 +23,4 @@ def binarysearch(a, value):
 
     return None
 
-print binarysearch([1, 3, 4, 8, 6], 8)
+print binarysearch([1, 3, 4, 8, 6], 6)

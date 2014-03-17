@@ -29,5 +29,7 @@ int binarysearch(int a[], int size, int value){
 
 int main(){
     int a[] = {1, 3, 4, 8, 6};
-    cout << binarysearch(a, 5 ,8) << endl;
+    int size = sizeof(a)/sizeof(int);
+    cout << binarysearch(a, size ,3) << endl;
 }
+	

@@ -50,6 +50,7 @@ And remember most of these algorithms are very similarly implemented using the s
 	<li> Sieve </li>
 	<li> Binary Search </li>
 	<li> Fletcher-16 Checksum </li>
+	<li> Gnome Sort </li>
 </ul>
 
 <h3> Data Structues Implemented </h3>

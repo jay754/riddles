@@ -24,7 +24,7 @@ function getDay(date){
   var inputMonth = inputDate[0];
 
   var oneDay = 24*60*60*1000;
-  var firstDate = new Date(inputYear-1+","+"12"+","+"31");
+  var firstDate = new Date(inputYear+","+"01"+","+"01");
   var secondDate = new Date(inputYear+","+inputMonth+","+inputDay);
 
   var diffDays = Math.round(Math.abs((secondDate.getTime() - firstDate.getTime())/(oneDay)));
@@ -34,5 +34,5 @@ function getDay(date){
 
 var expect = chai.expect;
 
-expect(getDay("03.01.2013")).to.equal(60); //regular year test
-expect(getDay("03.01.2012")).to.equal(61); //leap year test
+expect(getDay("03.01.2013")).to.equal(59); //regular year test
+expect(getDay("03.01.2012")).to.equal(60); //leap year test

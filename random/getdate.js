@@ -15,6 +15,8 @@ ex: 02.01.2013
 
 */
 
+var chai = require("chai");
+
 function getDay(date){
   var inputDate = date.split(".");
   var inputYear = inputDate[2];
@@ -30,5 +32,7 @@ function getDay(date){
   return diffDays;
 }
 
-console.log(getDay("03.01.2013")); //output is 60
-console.log(getDay("03.01.2012")); //on a leap year it should 61
+var expect = chai.expect;
+
+expect(getDay("03.01.2013")).to.equal(60); //regular year test
+expect(getDay("03.01.2012")).to.equal(61); //leap year test

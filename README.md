@@ -60,4 +60,5 @@ And remember most of these algorithms are very similarly implemented using the s
 
 <ul>
 	<li> Linkedlist </li>
+	<li> Stack </li>
 </ul>

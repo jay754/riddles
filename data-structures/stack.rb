@@ -18,19 +18,19 @@ class Stack
   end
 
   def pop
-	@data.pop()
+    @data.pop()
   end
 
   def is_empty?
-	@data.empty?
+    @data.empty?
   end
 
   def push(o)
-	@data.push(o)
+    @data.push(o)
   end
 
   def peek
-  	@data.last
+    @data.last
   end
 
 end

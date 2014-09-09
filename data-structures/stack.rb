@@ -3,7 +3,7 @@
 LIFO
 
 Operations:
-	pop: remove and return top item
+    pop: remove and return top item
     push(item): store item on top of stack
     is_empty?: return whether stack is empty.
     peek: returns the last element implemneted in the stack

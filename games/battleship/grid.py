@@ -67,7 +67,7 @@ class Board:
 				Ship += "B"
 
 		if g is not None or location is not None:
-			for i range(boat):
+			for i in range(boat):
 				g[y+i][x] = Ship
 
 	def print_grid(self, board):

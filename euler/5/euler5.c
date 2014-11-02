@@ -23,7 +23,7 @@ int main(int argc, char **argv){
 	while (true){
 		if (divisible(i)){
 			printf("%d\n", i);
-			break;
+			break
 		}
 
 		i++;

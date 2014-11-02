@@ -1,7 +1,7 @@
 from exceptions import *
 from grid import Board
 
-class player_state:
+class State:
 	def __init__(self):
 		self.cruiseship = False 
 		self.airship = False 
@@ -9,14 +9,14 @@ class player_state:
 		self.fourship = False
 		self.battleship = False
 
-	def player_state(self, grid):
+class Player_State(State):
+	def __init__(self):
 		pass
 
-	def check_game(self):
-		if self.cruiseship and self.airship and self.longship and self.fourship and self.battleship:
-			return "You have won the game Congrants"
+	def state(self):
+		pass 
 
-class computer_state(player_state):
+class Computer_state(State):
 	def __init__(self):
 		pass
 

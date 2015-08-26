@@ -15,16 +15,21 @@ class Linkedlist:
 		self.head = new_node
 
 	def delete_node(self, value):
+		current_node = self.head
 		prev = None
 		found = False
-		current_node = self.head
 
-		while found:
+		while found is False:
 			if current_node.value == value:
 				found = True
 			else:
 				prev = current_node
 				current_node = current_node.next
+
+		if prev == None:
+			self.head = current_node.next
+		else:
+			prev.next = current_node.next
 
 	def length(self):
 		current_node = self.head

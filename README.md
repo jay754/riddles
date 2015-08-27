@@ -53,6 +53,7 @@ Why I created this repo
 	<li> Binary Search </li>
 	<li> Fletcher-16 Checksum </li>
 	<li> Gnome Sort </li>
+	<li> Quicksort </li>
 </ul>
 
 <h3> Data Structues Implemented </h3>
@@ -60,4 +61,5 @@ Why I created this repo
 <ul>
 	<li> Linkedlist </li>
 	<li> Stack </li>
+	<li> Queue </li>
 </ul>

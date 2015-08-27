@@ -54,6 +54,7 @@ Why I created this repo
 	<li> Fletcher-16 Checksum </li>
 	<li> Gnome Sort </li>
 	<li> Quicksort </li>
+	<li> Mergesort </li>
 </ul>
 
 <h3> Data Structues Implemented </h3>

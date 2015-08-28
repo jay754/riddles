@@ -53,16 +53,61 @@ class Linkedlist:
 				current_node = current_node.next
 				count += 1
 
+	def display(self):
+		current_node = self.head
+
+		while current_node != None:
+			print current_node.value
+			current_node = current_node.next
+
+	def is_palindrome(self):
+		#2.7
+		current_node = self.head
+		word = ""
+
+		while current_node != None:
+			word += current_node.value
+			current_node = current_node.next
+
+		if word == word[::-1]:
+			return True
+
+		return False
+
+	def delete_middle_node(self):
+		#2.4
+		current_node = self.head
+		l = self.length()
+		mid = l/2
+		prev = None
+		count = 0
+		found = False
+
+		while found is False:
+			if count == mid:
+				found = True
+			else:
+				prev = current_node
+				current_node = current_node.next
+				count += 1
+
+		if prev == None:
+			self.head = current_node.next
+		else:
+			prev.next = current_node.next
+
 #testing
 
 test = Linkedlist()
-test.add_node(30) #points to None which the value will equal to and end the while loop
-test.add_node(29) #points to 30
-test.add_node(25) #points to 29
-test.add_node(16) #points to 25
+test.add_node('j')
+test.add_node('b') #points to 30
+test.add_node('o') #points to 29
+test.add_node('b') #points to 25 [16, 25, 29, 30]
+test.add_node('j')
 
-print test.length()
+# print test.is_palindrome()
 
-test.delete_node(29)
+test.delete_middle_node()
+test.display()
 
-print test.length()
+# test.delete_node(29)

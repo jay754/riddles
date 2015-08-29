@@ -63,4 +63,5 @@ Why I created this repo
 	<li> Linkedlist </li>
 	<li> Stack </li>
 	<li> Queue </li>
+	<li> Binarytree  </li>
 </ul>

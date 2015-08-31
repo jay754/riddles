@@ -1,4 +1,5 @@
 # https://dl.dropboxusercontent.com/u/6665854/binarytree.py
+# http://www.quora.com/How-can-you-find-successors-and-predecessors-in-a-binary-search-tree-in-order
 
 class Node:
     def __init__(self, key):
@@ -68,17 +69,40 @@ class BST:
             self.postOrder(node.right)
             print node.key
 
+    def succesor(self, root, node):
+        succesor = None
+
+        if node.right:
+            succesor = node.right
+            while node.left:
+                succesor = node.left
+        else:
+            while root:
+                if node.key < root.key:
+                    succesor = root
+                    root = root.left
+                elif node.key > root.key:
+                    root = root.right
+                else:
+                    break
+
+        return succesor
+
 root = Node(5)
+n = Node(43)
+
 test = BST(root)
 test.insert(root, 30)
 test.insert(root, 50)
 test.insert(root, 4)
 test.insert(root, 43)
 
-print test.get_maximum(root)
-print test.get_minimum(root)
+# print test.get_maximum(root)
+# print test.get_minimum(root)
 
-print test.search(root, 49)
+# print test.search(root, 49)
+
+print test.succesor(root, n).key
 
 # test.preOrder(root)
 # test.inOrder(root)

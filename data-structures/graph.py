@@ -38,6 +38,7 @@ class Graph:
     def addEdge(self, n1, n2):
         if n1 in self.graph:
             self.graph[n1].add(n2)
+            # self.graph[n2].add(n1) # for directed graphs so that both nodes can point to each other
 
     def removeEdge(self, n1, n2):
         if n1 in self.graph:

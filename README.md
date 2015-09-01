@@ -65,4 +65,5 @@ Why I created this repo
 	<li> Queue </li>
 	<li> Binarytree  </li>
 	<li> BST </li>
+	<li> Graph </li>
 </ul>

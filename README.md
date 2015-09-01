@@ -55,6 +55,8 @@ Why I created this repo
 	<li> Gnome Sort </li>
 	<li> Quicksort </li>
 	<li> Mergesort </li>
+	<li> BFS </li>
+	<li> DFS </li>
 </ul>
 
 <h3> Data Structues Implemented </h3>

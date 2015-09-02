@@ -35,6 +35,15 @@ class BST:
         elif node.key < key:
             return self.search(node.right, key)
 
+    def remove(self, node, key):
+        if node == None:
+            return
+
+        if node.key > key:
+            node.left = self.remove(node.left, key)
+        elif node.key < key:
+            node.right = self.remove(node.right, key)
+
     def get_minimum(self, node):
         current_node = node
 
@@ -88,21 +97,38 @@ class BST:
 
         return succesor
 
+    def printAllPaths(self, node):
+        self.printAllPathsR(node, "")
+
+    def printAllPathsR(self, node, pathSoFar):
+        if node == None:
+            print pathSoFar
+        if node.left != None:
+            self.printAllPathsR(node.left, pathSoFar + str(node.key) + ",")
+        if node.right != None:
+            self.printAllPathsR(node.right, pathSoFar + str(node.key) + ",")
+        if node.left == None and node.right == None:
+            print pathSoFar + str(node.key)
+
 root = Node(5)
-n = Node(43)
 
 test = BST(root)
 test.insert(root, 30)
 test.insert(root, 50)
 test.insert(root, 4)
 test.insert(root, 43)
+test.insert(root, 38)
+
+test.printAllPaths(root)
+
+test.remove(root, 4)
+
+test.printAllPaths(root)
 
 # print test.get_maximum(root)
 # print test.get_minimum(root)
 
 # print test.search(root, 49)
-
-print test.succesor(root, n).key
 
 # test.preOrder(root)
 # test.inOrder(root)

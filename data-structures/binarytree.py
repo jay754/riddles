@@ -15,12 +15,12 @@ class binarytree:
         if node == None:
             node = Node(value)
 
-        if node.data > value:
+        if node.data >= value:
             if node.left == None:
                 node.left = Node(value)
             else:
                 self.insert(node.left, value)
-        elif node.data < value:
+        else:
             if node.right == None:
                 node.right = Node(value)
             else:

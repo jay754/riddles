@@ -68,4 +68,5 @@ Why I created this repo
 	<li> Binarytree  </li>
 	<li> BST </li>
 	<li> Graph </li>
+	<li> Splay Tree </li>
 </ul>

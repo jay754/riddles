@@ -35,14 +35,29 @@ class BST:
         elif node.key < key:
             return self.search(node.right, key)
 
-    def remove(self, node, key):
+    def deleteNode(self, node, value):
         if node == None:
-            return
+            return node
 
-        if node.key > key:
-            node.left = self.remove(node.left, key)
-        elif node.key < key:
-            node.right = self.remove(node.right, key)
+        if value < node.data:
+            node.left = self.deleteNode(node.left, value)
+        elif value > node.data:
+            node.right = self.deleteNode(node.right, value)
+        else:
+            if node.left == None:
+                temp = node.right
+                del node
+                return temp
+            elif node.right == None:
+                temp = node.left
+                del node
+                return temp
+
+            temp = self.get_minimum(node.right)
+            node.data = temp.data
+            node.right = self.deleteNode(node.right, temp.data)
+
+        return node
 
     def get_minimum(self, node):
         current_node = node
@@ -50,7 +65,7 @@ class BST:
         while current_node.left != None:
             current_node = current_node.left
 
-        return current_node.key
+        return current_node
 
     def get_maximum(self, node):
         current_node = node
@@ -58,7 +73,7 @@ class BST:
         while current_node.right != None:
             current_node = current_node.right
 
-        return current_node.key
+        return current_node
 
     def preOrder(self, node):
         if node != None:

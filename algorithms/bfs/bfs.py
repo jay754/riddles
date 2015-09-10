@@ -5,7 +5,7 @@ def bfs(G, start):
     visited = set()
 
     while Start:
-        node = stack.pop(0)
+        node = Q.pop(0)
         if node not in visited:
             visited.add(node)
             Q.extend(G[node] - visited)

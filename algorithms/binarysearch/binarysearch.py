@@ -10,7 +10,7 @@ def binarysearch(a, value):
     low = 0
     high = len(a) - 1
 
-    while(low < high):
+    while low < high:
 
         mid = (low + high) / 2
 
@@ -21,6 +21,6 @@ def binarysearch(a, value):
         else:
         	return mid
 
-    return None
+    return -1
 
 print binarysearch([1, 3, 4, 8, 6], 6)

@@ -4,4 +4,4 @@ stack: stack.o
 	g++ stack.o -o stack
 
 clean:
-	rm -rf -o stack
+	rm -rf *o stack

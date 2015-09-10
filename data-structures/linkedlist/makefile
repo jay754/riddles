@@ -4,4 +4,4 @@ linkedlist: linkedlist.o
 	g++ linkedlist.o -o linkedlist
 
 clean:
-	rm -rf -o linkedlist
+	rm -rf *o linkedlist

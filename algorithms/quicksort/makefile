@@ -4,4 +4,4 @@ quicksort: quicksort.o
 	g++ quicksort.o -o quicksort
 
 clean:
-	rm -rf o quicksort
+	rm -rf *o quicksort

@@ -4,4 +4,4 @@ q: q.o
 	g++ q.o -o q
 
 clean:
-	rm -rf o q
+	rm -rf *o q

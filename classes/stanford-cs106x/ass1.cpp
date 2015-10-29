@@ -36,7 +36,17 @@ void heads(){
   std::cout << i << std::endl;
 }
 
-
+int nCr(int n, int r){
+  if(r==0){
+    return 1;
+  }
+  else if(r==n){
+    return 1;
+  }
+  else{
+    nCr(n-1, r-1) + nCr(n-1,r);
+  }
+}
 
 int main(){
   // std::cout << by2(3) << std::endl;

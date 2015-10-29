@@ -6,10 +6,9 @@ Why I created this repo
 <h3> Check out the following resources It'll help alot </h3>
 
 <ul>
-	<li> <a href="https://github.com/kennyledet/Algorithm-Implementations"> Github Repo for over hundreds of algorithms and data structures implemented </a> </li>
 	<li> <a href="http://www.reddit.com/r/dailyprogrammer"> Daily Algorithm Questions </a> </li>
 	<li> <a href="http://www.topcoder.com/"> TopCoder </a> </li>
-	<li> <a href="http://projecteuler.net/"> My Favourite </a> </li>
+	<li> <a href="http://projecteuler.net/"> Project Euler </a> </li>
 	<li> <a href="http://bigocheatsheet.com/"> Big O Cheatsheet </a> </li>
 </ul>
 
@@ -25,7 +24,7 @@ Why I created this repo
 	<li> 7 </li>
 	<li> 8 </li>
 	<li> 9 </li>
-	<li> 10 </li> 
+	<li> 10 </li>
 	<li> 11 </li>
 	<li> 12 </li>
 	<li> 13 </li>
@@ -35,7 +34,7 @@ Why I created this repo
 	<li> 20 </li>
 	<li> 24 </li>
 	<li> 29 </li>
-	<li> 36 </li> 
+	<li> 36 </li>
 	<li> 48 </li>
 	<li> 53 </li>
 	<li> 56 </li>
@@ -44,7 +43,7 @@ Why I created this repo
 
 <h3> Algorithms Implemented </h3>
 
-<ul> 
+<ul>
 	<li> Bubble Sort </li>
 	<li> Eucledian GCD </li>
 	<li> Prime </li>

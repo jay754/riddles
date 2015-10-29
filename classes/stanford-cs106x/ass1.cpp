@@ -16,7 +16,7 @@ void heads(){
   int i = 0;
   std::string word;
 
-  while(true){
+  while(count < 3){
     if(flip()==0){
       word = "tails";
     }
@@ -49,11 +49,6 @@ int nCr(int n, int r){
 }
 
 int main(){
-  // std::cout << by2(3) << std::endl;
-  int i = 0;
-  int in[5] = {1,2,3,4};
-  std::cout << arr(4, in) << std::endl;
-
   return 0;
 }
 

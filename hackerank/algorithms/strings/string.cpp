@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string>
 
-/* This questions are just tested withe test cases given by default/locally */ 
+/* This questions are just tested withe test cases given by default/locally */
 
 /*
 
@@ -41,7 +41,7 @@ https://www.hackerrank.com/challenges/two-strings
 bool sub(std::string input1, std::string input2){
 	int i=0;
 	for(i=0;i<input1.length();i++){
-		if(input2.find(input1[i]))	
+		if(input2.find(input1[i]))
 			return true;
 	}
 	return false;
@@ -79,7 +79,7 @@ def test(input1, input2):
 
 	if map1[result] > map2[result]:
 		result_position = map2[result]
-	
+
 	for i in range(len(map1.keys())):
 		if map2[map2.keys()[i-1]] > result_position and map1[map1.keys()[i-1]] > result_position:
 			if map2.keys()[i-1] not in result:

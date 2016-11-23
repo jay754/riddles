@@ -1,0 +1,15 @@
+Link: https://www.hackerrank.com/challenges/basic-probability-puzzles-2
+
+Question:
+
+For a single toss of  fair (evenly-weighted) dice,
+find the probability that the values rolled by each die will be different and their sum is 6.
+
+Answer:
+
+Total outputs is 36
+(2,4) , (4,2), (1,5), (5,1) -> outcomes -> there is also (3,3) and (3,3) -> but these aren't different hence not counted
+
+hence it is the four outcomes above divided the possible outputs
+
+4/36 -> 1/9

@@ -8,6 +8,8 @@ Beautiful Binary String
 """
 
 import re
+from cmath import polar
+from itertools import permutations
 
 def BeautifulBinaryString(string):
     return len(re.findall("010", "0100101010"))
@@ -23,4 +25,8 @@ def BeautifulBinaryString(string):
 #     else:
 #         return count-1
 
-print BeautifulBinaryString("0100101010")
+# print BeautifulBinaryString("0100101010")
+
+nums = raw_input().split(" ")
+top = set(float(i) for i in nums)
+print format(sum(top)/len(top))

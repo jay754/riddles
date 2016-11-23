@@ -1,0 +1,7 @@
+Link: https://www.hackerrank.com/challenges/basic-probability-puzzles-1
+
+Question:
+
+In a single toss of  fair (evenly-weighted) -sided dice, find the probability of that their sum will be at most .
+
+Answer:

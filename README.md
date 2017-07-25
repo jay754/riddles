@@ -4,6 +4,7 @@ Why I created this repo
 <h3> <a href="http://en.wikipedia.org/wiki/Empiricism"> Empiricism </a> </h3>
 
 <h3> Resources </h3>
+TEST
 
 <ul>
 	<li> <a href="http://www.reddit.com/r/dailyprogrammer"> Daily Algorithm Questions </a> </li>

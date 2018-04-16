@@ -136,8 +136,6 @@ test.insert(root, 38)
 
 test.printAllPaths(root)
 
-test.remove(root, 4)
-
 test.printAllPaths(root)
 
 # print test.get_maximum(root)

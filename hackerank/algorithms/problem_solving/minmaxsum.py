@@ -1,16 +1,21 @@
-arr = [1,2,3,4,5]
+arr = [5,5,5,5,5]
 results = []
 
 def removeElement(element, array):
-	s = 0
-	for i in array:
-		if i != element:
-			s += i
+    s = 0
+    for i in array:
+        if i != element:
+            s += i
 
-	return s
+    return s
 
-for i in range(len(arr)):
-	arr_sum = removeElement(arr[i], arr)
-	results.append(arr_sum)
+def miniMaxSum(arr):
+	results = []
 
-print(min(results), max(results))
+	for i in range(len(arr)):
+		arr_sum = removeElement(arr[i], arr)
+		results.append(arr_sum)
+
+	print(min(results), max(results))
+
+miniMaxSum(arr)
